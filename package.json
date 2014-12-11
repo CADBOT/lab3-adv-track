@@ -1,7 +1,7 @@
 {
   "name": "lab3-adv-track",
   "version": "0.0.0",
-  "description": "Codefellows Foundations II: Javascript, Lab 3, Beginner Track",
+  "description": "Codefellows Foundations II: Javascript, Lab 3, Advanced Track",
   "repository" : { "type" : "git", 
     "url" : "https://github.com/mel-quark/lab3-adv-track.git"
   },
