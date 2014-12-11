@@ -118,20 +118,18 @@ function SentientBeing () {
   };
 }
 
-// TODO: create three SentientBeings, one for each language in the
-// 'hello' object above.
-var klingon = new SentientBeing(); // TODO: fix me
-var romulan = new SentientBeing(); // TODO: fix me
-var human = new SentientBeing(); // TODO: fix me
+// TODO: create three subclasses of SentientBeing, one for each 
+// species above (Klingon, Human, Romulan).
 
-assert(human.sayHello(klingon) === 'nuqneH', 'the klingon should hear nuqneH');
+assert((new Human()).sayHello(new Klingon()) === 'nuqneH', 
+  'the klingon should hear nuqneH');
 // TODO: write five more assertions, to complete all the possible
-// greetings between the three sentient beings you created above.
+// greetings between the three types of sentient beings you created above.
 
 //*********************************************************
 // PROBLEM 4: Cleanup: 10 points
 // Makes sure this file passes jshint and jscs
 //
-// jshint lab3.js
-// jscs -p google lab3.js
+// ./node_modules/.bin/jshint
+// ./node_modules/.bin/jscs 
 //*********************************************************
