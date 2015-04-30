@@ -14,7 +14,8 @@ module.exports = function(grunt) {
         preset: "jquery",
         requireDotNotation: null,
         disallowMultipleVarDecl: null,
-        requireMultipleVarDecl: null
+        requireMultipleVarDecl: null,
+        validateQuoteMarks: null
       }
     }
   });
